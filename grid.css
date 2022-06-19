@@ -1,0 +1,61 @@
+/* This removes the default margin and padding added */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Styling for the Body part of the design*/
+body{
+    background-color: midnightblue;
+    display: flex;
+    min-height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+  
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+    height: 450px;
+}
+
+main div{
+    padding: 2em;
+    text-align: center;
+}
+
+.Grid-1{
+    background-color: orangered;
+    grid-area: a;
+    color: orangered;
+}
+
+.Grid-2{
+    background-color: darkorange;
+    grid-area: b;
+    color: darkorange;
+}
+
+.Grid-3{
+    background-color: forestgreen;
+    grid-area: c;
+    color: forestgreen;
+}
+.Grid-4{
+    background-color: aqua;
+    grid-area: d;
+    color: aqua;
+}
+.Grid-5{
+    background-color: aqua;
+    grid-area: e;
+    color: aqua;
+}
+© 2022 GitHub, Inc.
